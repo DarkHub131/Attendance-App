@@ -49,7 +49,7 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 	String subject = "SC";
 
 	private String[] branchString = new String[] {"CSE","ECE","EEE","CIVIL","MEC"};
-	private String[] yearString = new String[] {"FIRST","SECOND","THIRD","FOURTH"};
+	private String[] yearString = new String[] {"FIRST Year Odd","FIRST Year Even","SECOND Year Odd","Second Year Even","THIRD Year Odd","THIRD Year Even","FOURTH Year Odd","FOURTH Year Even"};
 	private String[] subjectSEString = new String[] {"SC","MC","MEC","CHE"};
 	private String[] subjectTEString = new String[] {"GT","IOT","C","HTML"};
 	private String[] subjectBEString = new String[] {"DS","ANDROID","ECE","DIGITAL"};

@@ -30,7 +30,7 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/textViewFormName"
             android:layout_marginTop="14dp"
-            android:text=" Firstname "
+            android:text=" Roll No "
             android:textSize="20dp"
             android:textStyle="italic"
             android:textColor="#090000" />
@@ -40,13 +40,13 @@
         <EditText
             android:id="@+id/editTextFirstName"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:layout_alignParentLeft="true"
+            android:layout_height="48dp"
             android:layout_below="@+id/textViewFirstName"
+            android:layout_alignParentLeft="true"
             android:layout_marginTop="10dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
-            android:hint="Firstname"
+            android:hint="Roll No"
             android:inputType="textPersonName"
             android:paddingLeft="15dp" />
 
@@ -57,7 +57,7 @@
             android:layout_alignLeft="@+id/editTextFirstName"
             android:layout_below="@+id/editTextFirstName"
             android:layout_marginTop="14dp"
-            android:text=" Lastname "
+            android:text=" Name "
             android:textSize="20dp"
             android:textStyle="italic"
             android:textColor="#090000" />
@@ -65,13 +65,13 @@
         <EditText
             android:id="@+id/editTextLastName"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:layout_alignLeft="@+id/textViewLastName"
+            android:layout_height="48dp"
             android:layout_below="@+id/textViewLastName"
+            android:layout_alignLeft="@+id/textViewLastName"
             android:layout_marginTop="10dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
-            android:hint="Lastname"
+            android:hint="Name"
             android:inputType="textPersonName"
             android:paddingLeft="15dp" />
 
@@ -90,7 +90,7 @@
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="48dp"
             android:layout_below="@+id/textViewEmail"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -116,7 +116,7 @@
         <EditText
             android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="48dp"
             android:layout_below="@+id/textViewPhone"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -141,7 +141,7 @@
         <EditText
             android:id="@+id/editTextaddr"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="48dp"
             android:layout_below="@+id/textViewaddr"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -168,8 +168,9 @@
             android:id="@+id/spinnerdept"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
             android:layout_alignParentLeft="true"
-            android:layout_below="@+id/textView1" />
+            android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -188,12 +189,13 @@
             android:id="@+id/spinneryear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView2"/>
+            android:layout_below="@+id/textView2"
+            android:minHeight="48dp" />
 
         <Button
             android:id="@+id/RegisterButton"
             android:layout_width="100dp"
-            android:layout_height="30dp"
+            android:layout_height="48dp"
             android:layout_below="@+id/spinneryear"
             android:layout_marginTop="50dp"
             android:background="@drawable/roundedbutton"
@@ -203,12 +205,12 @@
         <Button
             android:id="@+id/Cancel_Button"
             android:layout_width="100dp"
-            android:layout_height="30dp"
+            android:layout_height="48dp"
             android:layout_below="@id/spinneryear"
             android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
             android:layout_marginRight="18dp"
             android:layout_marginBottom="0dp"
-            android:layout_marginTop="50dp"
             android:background="@drawable/roundedbutton"
             android:text="Cancel "
             android:textColor="#ffffff" />

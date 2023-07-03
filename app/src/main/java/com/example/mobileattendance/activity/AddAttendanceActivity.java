@@ -78,9 +78,9 @@ public class AddAttendanceActivity extends Activity {
 					@Override
 					public void onCheckedChanged(RadioGroup group, int checkedId) {
 						if(checkedId == R.id.PresentradioButton) {
-							status = "P";
+							status = "Present";
 						} else if(checkedId == R.id.AbsentradioButton) {
-							status = "A";
+							status = "Absent";
 						} else {
 						}
 					}

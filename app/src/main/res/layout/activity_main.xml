@@ -9,31 +9,71 @@
     android:background="@drawable/clg"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="65dp"
-        android:src="@drawable/ic_launcher"/>
-
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="34dp"
-        android:layout_height="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="200dp"
-        android:text=" WELCOME "
-        android:textSize="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="57dp"
+        android:text="     Attendance System "
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#0F0096"
+        android:textSize="18dp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="361dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="41dp"
+        android:text=" Instructed by \n Dr. Md. Nazrul Islam Mondal\n     PROFESSOR\n     CSE , RUET"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0F0096"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="353dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="151dp"
+        android:text="Developed by \n         Nur-E-Zannat\n         ID: 2003163     \n         CSE , RUET"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0F0096"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-20dp"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/ic_launcher" />
 
     <Button
         android:id="@+id/buttonstart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="353dp"
         android:background="@drawable/roundedbutton"
         android:text="Start" />
 
